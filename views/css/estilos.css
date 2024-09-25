@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: center;
+    justify-content: center; /* Centra verticalmente */
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container a {
+    display: inline-block; /* Permite que el enlace sea tratado como un bloque para centrar */
+    margin: 20px auto; /* Espacio superior e inferior, centrado horizontalmente */
+    background: #35424a; /* Color de fondo del enlace */
+    color: #fff; /* Color del texto del enlace */
+    padding: 10px 20px; /* Espaciado interno del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.container a:hover {
+    background: #434f58; /* Cambio de color en hover */
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #434f58;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
