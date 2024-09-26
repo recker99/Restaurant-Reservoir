@@ -17,7 +17,7 @@
     include_once(__DIR__ . '/../models/reserva.php');
 
     if($_SERVER['REQUEST_METHOD'] == 'POST') {
-        $database = new Database(); // Clase con "D" mayúscula
+        $database = new Database(); 
         $db = $database->getConnection();
 
         $reserva = new Reserva($db);
